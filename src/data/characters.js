@@ -1,7 +1,19 @@
+import jonas from "../assets/jonas.jpeg";
+import ulrich from "../assets/ulrich.jpeg";
+import hannah from "../assets/hannah.jpeg";
+import charlotte from "../assets/charlotte.jpeg";
+import claudia from "../assets/claudia.jpg";
+import noah from "../assets/noah.jpeg";
+import bartosz from "../assets/bartosz.jpeg";
+import katharina from "../assets/Katharina.webp";
+import elisabeth from "../assets/elizabeth.jpeg";
+import adam from "../assets/adam.jpeg";
+import egon from "../assets/Egon.webp";
+
 export const characters = [
     {
         name: "Jonas Kahnwald",
-        image: "src/assets/jonas.jpeg",
+        image: jonas,
     },
     {
         name: "Martha Nielsen",
@@ -9,42 +21,42 @@ export const characters = [
     },
     {
         name: "Ulrich Nielsen",
-        image: "src/assets/ulrich.jpeg",
+        image: ulrich,
     },
     {
         name: "Hannah Kahnwald",
-        image: "src/assets/hannah.jpeg",
+        image: hannah,
     },
     {
         name: "Charlotte Doppler",
-        image: "src/assets/charlotte.jpeg",
+        image: charlotte,
     },
     {
         name: "Claudia Tiedemann",
-        image: "src/assets/claudia.jpg",
+        image: claudia,
     },
     {
         name: "Noah",
-        image: "src/assets/noah.jpeg",
+        image: noah,
     },
     {
         name: "Bartosz Tiedemann",
-        image: "src/assets/bartosz.jpeg",
+        image: bartosz,
     },
     {
         name: "Katharina Nielsen",
-        image: "src/assets/Katharina.webp",
+        image: katharina,
     },
     {
         name: "Elisabeth Doppler",
-        image: "src/assets/elizabeth.jpeg",
+        image: elisabeth,
     },
     {
         name: "Adam",
-        image: "src/assets/adam.jpeg",
+        image: adam,
     },
     {
         name: "Egon Tiedemann",
-        image: "src/assets/Egon.webp",
+        image: egon,
     },
 ];

@@ -20,7 +20,6 @@ function App() {
     }
   };
 
-  // Shuffle whenever clickedCharacters changes
   useEffect(() => {
     const shuffleCharacters = (array) => {
       return array
@@ -30,7 +29,7 @@ function App() {
     };
 
     setShuffledCharacters(shuffleCharacters(characters));
-  }, [clickedCharacters]); // Triggers after every click
+  }, [clickedCharacters]);
 
   return (
     <div className="app">
