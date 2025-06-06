@@ -9,6 +9,7 @@ import katharina from "../assets/Katharina.webp";
 import elisabeth from "../assets/elizabeth.jpeg";
 import adam from "../assets/adam.jpeg";
 import egon from "../assets/Egon.webp";
+import martha from "../assets/martha.jpg";
 
 export const characters = [
     {
@@ -17,7 +18,7 @@ export const characters = [
     },
     {
         name: "Martha Nielsen",
-        image: "https://i.pinimg.com/736x/eb/7b/bd/eb7bbd6d64f309185e53ae51570b6f5c.jpg",
+        image: martha,
     },
     {
         name: "Ulrich Nielsen",
